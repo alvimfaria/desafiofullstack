@@ -12,6 +12,6 @@
     "install": "^0.13.0"
   },
   "scripts": {
-    "start": "npm install && node src/server.js"
+    "start": "node src/server.js"
   }
 }
