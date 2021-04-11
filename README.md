@@ -26,9 +26,9 @@ npm start
 
 Dessa forma o servidor com a url http://localhost:4000/graphql estará pronto para ser utilizado.
 
-##A aplicação possui 02 end-points para serem utilizadas:
+## A aplicação possui 02 end-points para serem utilizadas:
 
-###01 questions
+### 01 questions
 ```
 {
   questions {
@@ -56,7 +56,7 @@ Dessa forma o servidor com a url http://localhost:4000/graphql estará pronto pa
 }
 ```
 
-###02 filterQuestions
+### 02 filterQuestions
 ```
 {
   filterQuestions(tag: "javascript" limit:12 score:4000 sort:"title") {
